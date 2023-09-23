@@ -1,0 +1,42 @@
+<div class="main-box row">
+    <div class="filter-box  p-3 mb-3 col-2">
+        <h6 class="text-center">Filter</h6>
+        <div class="maker mb-3">
+            <input [(ngModel)]="makerQuery" class="form-control " type="search" placeholder="Search by maker" />
+        </div>
+        <div class="model mb-3">
+            <input [(ngModel)]="modelQuery" class="form-control" type="search" placeholder="Search by model" />
+        </div>
+        <div class="rental-price mb-3">
+            <div class="d-flex">
+                <input [(ngModel)]="minPriceQuery" class="form-control me-2" type="text" placeholder="₹ Min" />
+                <input [(ngModel)]="maxPriceQuery" class="form-control" type="text" placeholder="₹ Max" />
+            </div>
+        </div>
+        <div class="form-group mb-3 startDate">
+            <label class="form-label">Start Date</label>
+            <input (ngModelChange)="findNextDateOfStartDate($event)" #startDateInput [(ngModel)]="startDate" class="form-control" type="date" />
+        </div>
+        <div class="form-group mb-3 endDate">
+            <label class="form-label">End Date</label>
+            <input #endDateInput [(ngModel)]="endDate" class="form-control" type="date" />
+        </div>
+        <div class="mb-3">
+            <button (click)=" Search()" class=" d-block btn btn-primary m-auto">Search</button>
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="car-box">
+            <div *ngFor="let car of cars" class="card car-card">
+                <div class="card-body">
+                    <h5 class="card-title">{{car.maker}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{car.model}}</h6>
+                    <p class="card-text">₹ {{car.rentalPrice}}</p>
+                    <div class="w-100">
+                        <button (click)="handleClick(car.vehicleId!)" class="btn-primary btn">Book Car</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

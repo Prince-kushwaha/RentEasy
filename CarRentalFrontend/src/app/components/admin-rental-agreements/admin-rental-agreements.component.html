@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="heading mb-3">
+        <h6 class="text-center">All Rental Agreements</h6>
+    </div>
+    <div class="agreement-container">
+        <div *ngFor="let agreement of agreements" class="card card-box">
+            <div class="card-body">
+                <h6 class="card-title">{{agreement.maker}}</h6>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{agreement.model}}</h6>
+                <h6 class="card-text">₹{{agreement.totalCost}}</h6>
+                <div class="date mb-3">
+                    <h6 class="text-body-secondary">{{agreement.startDate|reviseDate}}</h6>
+                    <h6 class="text-body-secondary">{{agreement.endDate|reviseDate}}</h6>
+                </div>
+                <div class="mb-3">
+                    <button (click)="handleClick(agreement.id!)" class="btn btn-primary">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

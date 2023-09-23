@@ -1,0 +1,30 @@
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\bin\Debug\net6.0\Business Layer.deps.json
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\bin\Debug\net6.0\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\bin\Debug\net6.0\Business Layer.pdb
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.csproj.AssemblyReference.cache
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfoInputs.cache
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfo.cs
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CoreCompileInputs.cache
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CopyComplete
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\refint\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\Business Layer.pdb
+C:\Users\prince03\Documents\CarRentalWebApi\Business Layer\obj\Debug\net6.0\ref\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\bin\Debug\net6.0\Business Layer.deps.json
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\bin\Debug\net6.0\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\bin\Debug\net6.0\Business Layer.pdb
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.csproj.AssemblyReference.cache
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfoInputs.cache
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.AssemblyInfo.cs
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CoreCompileInputs.cache
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.csproj.CopyComplete
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\refint\Business Layer.dll
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\Business Layer.pdb
+C:\Users\prince03\Documents\CarRentalApplication\Business Layer\obj\Debug\net6.0\ref\Business Layer.dll

@@ -1,0 +1,45 @@
+<header>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item ">
+                        <a *ngIf="userRole==undefined || userRole=='User'" class="nav-link text-white" routerLink="/">Home</a>
+                        <a *ngIf="userRole=='Admin'" class="nav-link text-white" routerLink="/admin/home">Home</a>
+                    </li>
+                </ul>
+                <div class="w-100 text-white text-center">
+                </div>
+                <ul *ngIf="isLoggedIn && (userRole=='User')" class="navbar-nav flex-grow-1">
+                    <li class="nav-item margin-left-auto">
+                        <a routerLink="/myagreements" class="btn btn-primary">Agreements</a>
+                    </li>
+                </ul>
+                <ul *ngIf="isLoggedIn && (userRole=='Admin')" class="navbar-nav flex-grow-1">
+                    <li class="nav-item margin-left-auto">
+                        <a routerLink="/admin/agreements" class="btn btn-primary">Agreements</a>
+                    </li>
+                </ul>
+                <ul *ngIf="isLoggedIn && (userRole=='Admin')" class="navbar-nav flex-grow-1">
+                    <li class="nav-item margin-left-auto">
+                        <a routerLink="admin/addcar" class="btn btn-primary">AddCar</a>
+                    </li>
+                </ul>
+                <ul *ngIf="!isLoggedIn" class="navbar-nav flex-grow-1">
+                    <li class="nav-item margin-left-auto">
+                        <a routerLink="/login" class="btn btn-primary">Login</a>
+                    </li>
+                </ul>
+                <ul *ngIf="isLoggedIn" class="navbar-nav flex-grow-1">
+                    <li class="nav-item margin-left-auto">
+                        <button (click)="Logout()" class="btn btn-primary">LogOut</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

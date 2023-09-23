@@ -1,0 +1,21 @@
+.main-box {
+    margin: 0 10px;
+}
+
+.car-card {
+    min-width: 200px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.car-box {
+    display: flex;
+    justify-self: start;
+    flex-wrap: wrap;
+
+}
+
+.filter-box {
+    height: fit-content;
+    border: solid 1px;
+}

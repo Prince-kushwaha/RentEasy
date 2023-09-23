@@ -1,0 +1,10 @@
+.agreement-container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.card-box {
+    width: 15vw;
+    margin: 10px;
+}

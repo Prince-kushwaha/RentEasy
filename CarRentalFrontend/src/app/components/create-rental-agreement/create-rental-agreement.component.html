@@ -1,0 +1,58 @@
+<div class="main-container">
+    <div *ngIf="errorMsg" class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>{{errorMsg}}</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h6 class="text-center">Rental Agreement</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-6">
+                    <div class="maker">
+                        <h6>Maker</h6>
+                        <p>{{agreement.maker}}</p>
+                    </div>
+                    <div class="model">
+                        <h6>Model</h6>
+                        <p>{{agreement.model}}</p>
+                    </div>
+                    <div class="rentalprice">
+                        <h6>Rental Price</h6>
+                        <p>₹ {{agreement.rentalPrice}}</p>
+                    </div>
+                    <div class="form-group mb-3">
+                        <h6 class="form-label">Start Date</h6>
+                        <p>{{agreement.startDate|reviseDate}}</p>
+                    </div>
+                    <div class="form-group mb-3">
+                        <h6 class="form-label">End Date</h6>
+                        <p>{{agreement.endDate|reviseDate}}</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="maker">
+                        <h6>User Name</h6>
+                        <p>{{agreement.name}}</p>
+                    </div>
+                    <div class="model">
+                        <h6>Email</h6>
+                        <p>{{agreement.email}}</p>
+                    </div>
+                    <div class="rentalprice">
+                        <h6>Phone Number</h6>
+                        <p>{{agreement.phoneNumber}}</p>
+                    </div>
+                    <div class="">
+                        <h6>Total Cost</h6>
+                        <p>₹ {{agreement.totalCost}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action">
+                <button (click)="bookCar()" class="d-block m-auto btn btn-primary">Agree</button>
+            </div>
+        </div>
+    </div>
+</div>
